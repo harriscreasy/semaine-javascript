@@ -1,0 +1,26 @@
+body{
+    background: red;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.timeDiv{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 50px;
+    width: 100%;
+   
+}

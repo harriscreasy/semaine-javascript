@@ -20,6 +20,12 @@ section{
     background-position: center;
 } 
 
+section #arrow{
+
+    width: 50px;
+
+}
+
 
 /* Span devient l'enfant du body lors de l'évenement Click  */
 span{
@@ -32,12 +38,4 @@ span{
 
 }
 
-button{
-    border: 5px solid black;
-    margin-bottom: 50px;
-}
 
-button img{
-    width: 30px;
-    
-}

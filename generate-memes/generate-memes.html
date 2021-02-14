@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/generate-memes/generate-memes.css">
+    <link rel="stylesheet" href="../generate-memes/generate-memes.css">
 </head>
 
 <body>
@@ -16,8 +16,8 @@
 
 
     <form>
-        Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
-    <h2>Select a picture <input type="file" id="user_picture" onchange="update_image()"></h2>
+        Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text();"><p>
+    <h2>Select a picture <input type="file" id="user_picture" onchange="update_image();"></h2>
     </form>
 
 
@@ -25,7 +25,7 @@
     <div id="meme_picture"><img src="#" height="500" width="900"></div>
 
 
-    <script src="/generate-memes/generate-memes.js"></script>
+    <script src="../generate-memes/generate-memes.js"></script>
 </body>
 
 </html>

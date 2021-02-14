@@ -1,12 +1,12 @@
-function getPassword(){
-    let chars = "0123456789azertyuiopqsdfghjklmwxcvbn?./%£*¨%/§";
+function getPassword(){ //Début de la fonction
+    let chars = "maiwennharris";
     // Stocker les caractères que l'on veut dans le mot de passe
-    let passwordLenght = 16;
+    let passwordLenght = 8;
     // La taille que l'on veut pour le mot de passe
-    var password = "";
+    let password = "";
      // Le mot de passe est vide
 
-    for (let i=0; i<passwordLenght; i++){
+    for (let i=0; i<passwordLenght; i++){ //Ouverture de la boucle for
          // Tant que la longueur 16 du mot de passe n'est pas atteinte ajouter un caractère
         let randomNumber = Math.floor(Math.random() * chars.length);
         // Ajoute aleatoirement des caractères de la variable chars qui content les caractères
