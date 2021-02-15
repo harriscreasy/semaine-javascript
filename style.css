@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
